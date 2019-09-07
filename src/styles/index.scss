@@ -1,0 +1,17 @@
+@import './variables.scss';
+
+
+.clearfix:after,.clearfix:before {
+  content:' ';
+  display: table-cell;
+  clear: both;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.container {
+  margin: 0 auto;
+  width: $mainWidth;
+}
